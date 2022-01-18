@@ -1,0 +1,55 @@
+/* GOOGLE FONTS - DONGLE */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+
+}
+
+.container {
+
+    width: 220px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #465A65;
+
+}
+
+.display-area, .buttons-area {
+
+    margin: 5px;
+
+}
+
+.display {
+
+    font-size: 32px;
+    height: 45px;
+    width: 189.61px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: #DDEDC8;
+
+}
+
+.button {
+
+    font-size: 32px;
+    width: 45px;
+    height: 45px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}

@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
     <!-- MEDIA QUERIES -->
-    <link rel="stylesheet" href="/css/media-queries.css">
+    <link rel="stylesheet" type="text/css" href="/css/media-queries.css">
 
     <title>Calculator | 4º Ioasys Camp</title>
 </head>
@@ -17,42 +17,42 @@
 
     <div class="container">
 
-        <div>
+        <div class="display-area">
 
-            <input type="number" name="number" id="display">
-
-        </div>
-
-        <div>
-
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>/</button>
+            <input id="display" class="display" type="number" name="number">
 
         </div>
-        <div>
 
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>X</button>
+        <div class="buttons-area">
 
-        </div>
-        <div>
-
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>-</button>
+            <button id="seven" class="button">7</button>
+            <button id="eight" class="button">8</button>
+            <button id="nine" class="button">9</button>
+            <button id="division" class="button">/</button>
 
         </div>
-        <div>
+        <div class="buttons-area">
 
-            <button>0</button>
-            <button>.</button>
-            <button>+</button>
-            <button>=</button>
+            <button id="four" class="button">4</button>
+            <button id="five" class="button">5</button>
+            <button id="six" class="button">6</button>
+            <button id="multiply" class="button">*</button>
+
+        </div>
+        <div class="buttons-area">
+
+            <button id="one" class="button">1</button>
+            <button id="two" class="button">2</button>
+            <button id="three" class="button">3</button>
+            <button id="subtract" class="button">-</button>
+
+        </div>
+        <div class="buttons-area">
+
+            <button id="zero" class="button">0</button>
+            <button id="dot" class="button">.</button>
+            <button id="add" class="button">+</button>
+            <button id="equal" class="button">=</button>
 
         </div>
 

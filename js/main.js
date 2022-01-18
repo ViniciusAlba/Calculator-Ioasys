@@ -170,4 +170,10 @@ function backspaceCalculator() {
 
     calculator.displayValue = calculator.displayValue.slice(0, -1);
 
+    if (calculator.displayValue.length == '') {
+
+        calculator.displayValue = '0';
+
+    }
+
 }

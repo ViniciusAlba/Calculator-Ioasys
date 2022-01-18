@@ -6,6 +6,19 @@
     padding: 0;
     margin: 0;
     font-family: 'Dongle', sans-serif;
+    font-weight: 600;
+
+}
+
+body {
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EEE1;
 
 }
 
@@ -17,7 +30,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    justify-self: center;
     border: none;
     border-radius: 10px;
     background-color: #465A65;
@@ -34,7 +47,8 @@
 
     font-size: 32px;
     height: 45px;
-    width: 189.61px;
+    width: 168px;
+    padding: 0 10px;
     border: 1px solid black;
     border-radius: 10px;
     outline: none;
@@ -51,5 +65,60 @@
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+
+}
+
+.button:hover {
+
+    cursor: pointer;
+    background-color: #CDCDCD;
+
+}
+
+#equal {
+
+    background-color: #FF8C00;
+
+}
+
+#equal:hover {
+
+    background-color: #FFA500;
+
+}
+
+.footer {
+
+    width: 100vw;
+    height: 100px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #465A65;
+
+}
+
+.footer p {
+
+    font-size: 24px;
+
+}
+
+.github-icon, .linkedin-icon {
+
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: auto 5px;
+    font-size: 20px;
+
+}
+
+.fa-github:hover, .fa-linkedin:hover {
+
+    transform: scale(1.2);
 
 }

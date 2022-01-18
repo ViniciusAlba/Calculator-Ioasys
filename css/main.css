@@ -25,7 +25,7 @@ body {
 .container {
 
     width: 220px;
-    height: 310px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,5 +120,11 @@ body {
 .fa-github:hover, .fa-linkedin:hover {
 
     transform: scale(1.2);
+
+}
+
+#clear, #equal {
+
+    width: 90px;
 
 }

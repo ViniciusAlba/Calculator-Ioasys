@@ -7,7 +7,7 @@ I used HTML, CSS, Media Queries and JS.
 ## Solution
 
 [Netlify](https://viniciusmartins-calculator-ioasys-camp.netlify.app/)
-![](/img/calculator-image)
+![Image of page](/https://github.com/ViniciusAlba/Calculator-Ioasys/blob/main/img/calculator-image.png)
 
 ## Social Medias
 
